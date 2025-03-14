@@ -1,0 +1,18 @@
+docs:
+https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
+
+
+Cargo is Rust’s build system and package manager.Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries.
+
+
+commands:
+
+create a new project or initialize new project
+=> cargo new project_name
+
+to run project.
+=> cargo run
+
+
+ quickly checks your code to make sure it compiles but doesn’t produce an executable
+=> cargo check
